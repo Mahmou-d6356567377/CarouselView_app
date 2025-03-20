@@ -1,0 +1,25 @@
+name: test_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/images/female1.webp
+    - assets/images/female2.webp
+    - assets/images/male1.webp
+    - assets/images/male2.webp
+    - assets/images/male3.webp
+  uses-material-design: true
